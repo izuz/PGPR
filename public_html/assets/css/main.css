@@ -1,0 +1,124 @@
+body{
+    background-color: #ededed;
+}
+
+/*Fix para que no aparezca detrás del navbar*/
+
+#objectives, #ITsolution{
+    margin-top: -10vh;
+    padding-top: 10vh;
+}
+
+/* NAV */
+
+#menu{
+    background-color: #FFF !important;
+}
+
+nav a {
+    color: black !important;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* INICIO */
+
+#titulo{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+#titulo2{
+    text-align: center;
+    color: black;
+}
+
+.card {
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #ededed;
+    flex:0 0 auto;
+    margin:20px;
+    font-family:'Helvetica', san-serif;
+    font-weight:600;
+    transition:0.3s all ease;
+    box-shadow: -1px -1px 1px 0px rgba(255,255,255,1), 1px 1px 1px 0px rgba(0,0,0,0.06), -6px -6px 26px 0px rgba(255,255,255,0.8), 6px 6px 26px 0px rgba(0,0,0,0.12);
+    cursor:pointer;
+    border:2px solid rgba(200, 200, 255, 0);
+}
+
+.card:hover {
+    box-shadow: -1px -1px 1px 0px rgba(255,255,255,1), 1px 1px 1px 0px rgba(0,0,0,0.06), -6px -6px 26px 0px rgba(255,255,255,0.8), 6px 6px 26px 0px rgba(0,0,0,0.12), -6px -6px 40px 0px rgba(255,255,255,1), 6px 6px 40px 0px rgba(0,0,0,0.16);
+    background-color:#FFF;
+    transform:scale(1.01);
+}
+
+.card:active,&:focus {
+    box-shadow: -1px -1px 1px 0px rgba(255,255,255,1), 1px 1px 1px 0px rgba(0,0,0,0.06), -6px -6px 26px 0px rgba(255,255,255,0.8), 6px 6px 26px 0px rgba(0,0,0,0.12);
+    transform:scale(0.99);
+    background-color: #dcdcdc;
+}
+
+.card-title {
+    text-align: center !important;
+    color: #000;
+    font-weight: bold;
+}
+
+#link{
+    text-decoration: none !important;
+}
+
+#link2{
+    color: white;
+}
+
+/* DOCUMENTATION */
+
+#objectives, #bibliography{
+    background-color: #003865;
+}
+
+#title_objectives{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#text_objectives{
+    color: white;
+    text-align: justify;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* TECHNOLOGICAL SOLUTION */
+
+#ITsolution{
+    background-color: #FFF;
+}
+
+#text_solution{
+    color: black;
+    text-align: justify;
+}
+
+/* BIBLIOGRAPHY */
+
+#bibliography_list{
+   color: white;
+}
