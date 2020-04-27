@@ -80,6 +80,11 @@ nav a:hover {
     color: white;
 }
 
+#link3{
+    color: black;
+    text-align: center;
+}
+
 /* DOCUMENTATION */
 
 #objectives, #bibliography{
@@ -119,6 +124,10 @@ img {
 #text_solution{
     color: black;
     text-align: justify;
+}
+#text_solution2{
+    color: black;
+    text-align: center;
 }
 
 /* BIBLIOGRAPHY */
